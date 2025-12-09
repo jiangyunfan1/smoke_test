@@ -1,0 +1,302 @@
+[
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "注意这段文本包含\u200b零宽空格和\u200c零宽非连接符，同时还有双向控制符\u202a\u202b\u202d\u202e。不可见分隔符\u2060用于连接，编码实体&nbsp;和&#10;以及未闭合的&符号。Latin-1字符é和ç，加上模拟的无效UTF-8\u0080\u0081序列。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "测试数据1：\u200b这里\u200c有零宽字符，\u202e\u202d双向文本控制，\u2060词连接符。编码包括&nbsp;空格和&#10;换行，未闭合的&问题。Latin-1混合äöü，无效字节\u0082\u0083\u0084。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "安全警告：检测到\u200b隐\u200c藏字符！\u202a\u202b\u202d\u202e方向控制可能被滥用。\u2060分隔符，实体&nbsp;和&#10;，未闭合&。Latin-1字符ñ和ß，UTF-8截断\u0085\u0086\u0087。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "密码\u200b加\u200c密测试：\u202e反向\u202d文本\u202b控制\u202a。\u2060连接点，&nbsp;不间断空格，&#10;换行符，&未闭合。字符éèà，无效序列\u0088\u0089\u008a。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "零宽\u200b字符\u200c示例：\u202a从左到右\u202b嵌入\u202d重写\u202e反向。\u2060词连接，&nbsp;实体，&#10;换行，&错误。Latin-1 ç Ç ñ Ñ，截断\u008b\u008c。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "数据验证：\u200b隐\u200c藏控制符检测。\u202e\u202d\u202b\u202a全部双向符。\u2060连接，&nbsp;空格，&#10;换行，&。混合字符áíóú，无效\u008d\u008e\u008f。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "文本处理\u200b中的\u200c特殊字符：\u202a开始\u202b嵌入\u202d重写\u202e反转。\u2060分隔，&nbsp;，&#10;，&。Latin-1扩展æ œ ø，序列\u0090\u0091。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "测试字符串包含\u200b零\u200c宽控制。\u202e反向\u202d显示\u202b嵌入\u202a内容。\u2060连接符，实体&nbsp;和&#10;，未闭合&。字符âêîôû，截断\u0092\u0093\u0094。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "隐\u200b藏\u200c信息可能使用这些字符：\u202a\u202b\u202d\u202e方向控制。\u2060连接，&nbsp;空格，&#10;换行，&符号。Latin-1 ä ö ü ß，无效\u0095\u0096。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "安全扫描\u200b检测\u200c到特殊token。\u202e\u202d双向控制\u202b\u202a序列。\u2060分隔，&nbsp;，&#10;，&。字符é è ê ë，UTF-8\u0097\u0098\u0099问题。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "示例：\u200b这里\u200c有零宽字符，\u202a文本\u202b方向\u202d控制\u202e示例。\u2060连接点，&nbsp;实体，&#10;换行，&。Latin-1 à á â ã，无效\u009a\u009b\u009c。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "输入验证测试\u200b零\u200c宽字符。\u202e\u202d全部\u202b双向\u202a控制符。\u2060分隔符，&nbsp;，&#10;，&。混合字符å Å ä Ä，截断\u009d\u009e。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "文本分析包含\u200b隐\u200c藏控制符。\u202a左到右\u202b嵌入\u202d重写\u202e反转。\u2060连接，实体&nbsp;和&#10;，未闭合&。字符ö Ö ü Ü，无效\u009f\u00a0。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "测试数据：\u200b零宽\u200c空格非连接。\u202e反向\u202d文本\u202b控制\u202a序列。\u2060分隔，&nbsp;空格，&#10;换行，&。Latin-1 é É è È，UTF-8\u00a1\u00a2问题。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "注意特殊\u200b字符\u200c组合：\u202a\u202b\u202d\u202e多向控制。\u2060连接符，&nbsp;实体，&#10;换行，&符号。字符î ï ì Í，截断\u00a3\u00a4。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "检测到\u200b零宽\u200c控制字符：\u202e\u202d全部\u202b方向\u202a控制。\u2060连接，&nbsp;，&#10;，&。混合字符ô Ô ö Ö，无效\u00a5\u00a6\u00a7。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "文本处理示例\u200b包含\u200c：\u202a嵌入\u202b文本\u202d重写\u202e反转。\u2060分隔符，实体&nbsp;和&#10;，未闭合&。字符û Û ü Ü，序列\u00a8\u00a9。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "安全警告：\u200b隐\u200c藏控制符可能有害。\u202e\u202d\u202b\u202a双向文本控制。\u2060连接，&nbsp;空格，&#10;换行，&。Latin-1 ç Ç ñ Ñ，截断\u00aa\u00ab。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "测试字符串\u200b零\u200c宽字符检测：\u202a左到右\u202b嵌入\u202d重写\u202e反向。\u2060连接点，&nbsp;实体，&#10;换行，&符号。字符æ Æ ø Ø，无效\u00ac\u00ad。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "完整示例：\u200b所有\u200c特殊token测试。\u202e\u202d方向\u202b控制\u202a全部包含。\u2060分隔，&nbsp;，&#10;，&。Latin-1 å Å ä Ä，UTF-8\u00ae\u00af问题。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "测试零宽字符：这里有一个零宽空格\u200b和一个零宽非连接符\u200c。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "双向文本控制示例：\u202a从左到右覆盖\u202c，\u202b从右到左覆盖\u202c。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "不可见分隔符：单词连接\u2060符。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "HTML实体：空格&nbsp;，换行&#10;，未闭合的&符号。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "混合编码测试：常用符号@#$%，拉丁字符é©，以及无效UTF-8序列�。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "箭头符号集合：向左←，向右→，向上↑，向下↓，双向↔。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "数学符号：不等于≠，约等于∼，百分比‰，分数½。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "货币符号：美元$，欧元€，人民币¥，英镑£。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "法律符号：版权©，注册®，商标™。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "形状符号：星星★，心形❤，箭头➔，对号✓。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "标点符号：引号“ ” ‘ ’，省略号…，破折号—。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "音乐符号：音符♪，八分音符♫，降调♭，升调♯。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "希腊字母：Alpha Α，Beta Β，Gamma Γ，Omega Ω。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "天气符号：太阳☀，云朵☁，雨伞☂，雪花❄。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "表情符号：笑脸☺，皱眉☹，和平☮，阴阳☯。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "象棋符号：国王♔，王后♕，车♖，马♘。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "星座符号：白羊♈，金牛♉，双子♊，巨蟹♋。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "技术符号：电话☎，信封✉，剪刀✂，铅笔✏。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "综合测试1：箭头→ + 数学≠ + 货币€ + 零宽\u200b。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "综合测试2：法律© + 形状★ + 音符♪ + 实体&nbsp;。"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "零宽空格\u200B零宽非连接符\u200C左至右嵌入\u202A右至左嵌入\u202B左至右覆盖\u202D右至左覆盖\u202E词连接符\u2060 HTML实体:&nbsp;&#10;& 无效UTF-8序列[E4 B8] Latin-1混合字符ÿ"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "\u200B隐藏信息在\u200C这些\u200B字符\u200C之间\u202A\u202B\u202D\u202E\u2060&nbsp;&amp;&#10;不完整& 无效编码E4B8A5\u00E7"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "测试\u200B\u202A特殊\u200C\u202B字符\u202D\u202E组合\u2060用于\u202A\u202B安全\u202D\u202E检测&nbsp;&#10;&未闭合 HTML实体 无效[M3 B8]序列 \u00F1"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "双向\u202Atext\u202B正常\u202Dtext\u202E反转 零宽\u200B字符\u200C在这里 \u2060连接&nbsp;换行&#10;断开& 字节序列[F0 9F] F1"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "开始\u200B\u200C\u202A\u202B\u202D\u202E\u2060结束 &nbsp;&#10;& 部分编码[E282] 非UTF8A2"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "零宽\u200B分割\u200C点 双向\u202A左\u202B右\u202D混合\u202E文本 \u2060不可\u2060见&nbsp;分\u2060隔 &amp;&#9;&amp; 断裂UTF8[E6\u00E4]"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "\u202B\u202A\u200B嵌套\u200C控制\u202D符\u202E测试\u2060 &amp;amp; &nbsp; &lt; &#60; &gt; 无效序列[C3] E9"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "混合文本\u200B\u200C\u202A\u202B\u202D\u202E\u2060\u00A0&nbsp;&#32; 空格变体 &amp;未闭合 乱码开始ï¿½"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "零宽字符测试:\u200B|\u200C 双向:\u202A|\u202B|\u202D|\u202E 连接符:\u2060 实体:&amp;nbsp;&#13;&#10;& 乱码:E2 82\u00AC"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "\u202E\u202D\u202C\u202B\u202A反转\u200B\u200C\u2060序列\u00A0 &amp;&#38; &amp;# &nbsp; 断字节[C3] 拉丁[E8]"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "正常文本\u200B隐藏文本\u200C正常\u202A左到右\u202B右到左\u202D强制左\u202E强制右\u2060保持连接 &amp;#10;&amp;未终止 UTF8截断[F0\u00A2]"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "\u200B\u200C\u2060\u202A\u202B\u202D\u202E所有控制字符集中 &amp;#38;&#65; &amp;nbsp; 不完整序列[E2] Latin1[F6]"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "零宽分隔\u200B\u200C内容 双向\u202B混合\u202A方向\u202E特殊\u202D效果 词连接\u2060不间断 HTML&nbsp;实体&未闭合 损坏[E3 81]E2"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "\u202A\u202B文本流向\u200B\u200C控制 \u202D\u202E覆盖\u2060模式 &amp;#9;&#10;&amp; 混合编码[E7\u00BB]"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "开始\u200B\u200C\u202A\u202B\u202D\u202E\u2060结束 零宽字符测试 &amp;nbsp;&#13;&#10;&amp; 无效序列[B8] 替换\uFFFD字符"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "隐形\u200B分\u200C隔\u200B符 双向\u202A控\u202B制\u202D混\u202E合 词\u2060连\u2060接 &amp;不闭合 &#10;截断[F0 9F] 8D"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "\u202B\u202A双向\u200B嵌套\u200C测试\u202D\u202E\u2060 &nbsp;&#10;&amp; 实体混用 无效UTF8[E5\u00BB] Latin-1[E0]"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "零宽空格\u200B零宽非连接符\u200C双向\u202A\u202B\u202D\u202E控制 词连接\u2060 HTML实体:&amp;#160;&#10;& 无效字节序列[E4] 拉丁字符F1"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "\u200B\u200C隐藏\u202A\u202B信息\u202D\u202E测试\u2060 不可见\u2060连接 &amp;nbsp;&#65;&#10;& 未完成序列[F0] 非UTF8\u00E4"
+  },
+  {
+    "category": "特殊/控制字符",
+    "role": "user",
+    "content": "控制字符\u200B混合\u200C示例\u202A\u202B\u202D\u202E\u2060 &nbsp;&#10;&amp;未闭合 UTF8截断[C3 A9] 损坏数据C328"
+  }
+]
