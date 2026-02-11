@@ -2,6 +2,9 @@ import json
 from transformers import AutoTokenizer
 import os
 
+input_len=3500
+batch_size=400
+model_path="/home/yf/qwen3_tokenizer"
 
 def create_data(input_len, batch_size, model_path, save_path):
     tokenizer = AutoTokenizer.from_pretrained(model_path)
@@ -50,3 +53,7 @@ def create_data(input_len, batch_size, model_path, save_path):
         for i in range(len(dataset_2k)):
             f.write(json.dumps({"question": dataset_2k[i], "answer": "none"}, ensure_ascii=False))
             f.write("\n")
+
+
+if __name__ == "__main__":
+    create_data(input_len, batch_size, model_path, ".")
