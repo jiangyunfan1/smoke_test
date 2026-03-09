@@ -1,0 +1,12 @@
+# 设置安装目录（使用持久化存储路径）
+echo $homeINSTALL_DIR="$HOME/work/.local"
+# 创建目录并下载 Node.jsonmkdir -p "$INSTALL_DIR"
+cd "$INSTALL_DIR"
+wget -q https://nodejs.org/dist/v22.11.0/node-v22.11.0-linux-x64.tar.xz
+# 解压并重命名
+tar -xf node-v22.11.0-linux-x64.tar.xzmv node-v22.11.0-linux-x64 nodejs22
+# 添加到环境变量
+echo 'export PATH=$HOME/work/.local/nodejs22/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc# 验证安装
+node -v   # 应显示 v22.11.0
+npm -v    # 应显示 npm 版本号
