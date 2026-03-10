@@ -37,7 +37,3 @@ echo 'export ANTHROPIC_AUTH_TOKEN="sk-你的API密钥"' >> ~/.bashrc
 echo 'export ANTHROPIC_BASE_URL="https://你的服务地址"' >> ~/.bashrc
 # 使配置生效
 source ~/.bashrc
-
-export ANTHROPIC_AUTH_TOKEN="sk-hfgKSdkLPq4JnONlrokxrR0hNHj0rr1qfT8E8Gk3wKcXFxL5"
-export ANTHROPIC_BASE_URL="https://api.bltcy.cn"
-export CLAUDE_CODE_MAX_OUTPUT_TOKENS=64000
