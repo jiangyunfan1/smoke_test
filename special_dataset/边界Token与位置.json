@@ -1,0 +1,132 @@
+[
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "正常文本开头，然后[BOS][BOS][BOS][BOS][BOS][BOS]在中间插入多个开始标记，然后继续正常文本，最后以[EOS][EOS][EOS][EOS][EOS]结束。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "[PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]全是填充标记的输入[PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "这是一个正常长度的输入，但在文本中间[BOS]插入了特殊标记，然后继续[EOS]文本，最后还有[PAD]填充标记。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "[BOS]文本开头就有开始标记，然后正常内容，中间[EOS]有结束标记，但文本还在继续，最后[PAD][PAD][PAD]多个填充标记。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "正常文本，但中间有很多[BOS][EOS][PAD][BOS][EOS][PAD]特殊标记交替出现，然后继续正常文本。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "全是特殊标记的输入：[BOS][EOS][PAD][BOS][EOS][PAD][BOS][EOS][PAD][BOS][EOS][PAD][BOS][EOS][PAD][BOS][EOS][PAD]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "开头正常，中间[BOS][BOS][BOS][BOS][BOS]连续开始标记，然后[EOS][EOS][EOS]连续结束标记，最后[PAD][PAD][PAD][PAD]连续填充标记。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "[PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]全是填充标记，没有实际内容[PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "正常文本中随机插入[BOS]和[EOS]标记，例如这里[BOS]有一个开始标记，然后继续[EOS]有一个结束标记，但文本还在继续[BOS]。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "极端批处理模拟：一个长序列加上多个极短序列，但这里用特殊标记表示：[LONG_SEQUENCE][SHORT1][SHORT2][SHORT3][SHORT4][SHORT5]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "在输入的开头、中间和结尾都插入特殊标记：[BOS]开头，中间[EOS]，结尾[PAD]，然后还有额外的[BOS]在中间。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "填充攻击：[PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "混合特殊标记：正常文本中插入[BOS]，然后更多文本，再插入[EOS]，然后继续文本，最后插入[PAD]，中间还有额外的[BOS]和[EOS]。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "全是特殊标记，但排列不同：[EOS][BOS][PAD][EOS][BOS][PAD][EOS][BOS][PAD][EOS][BOS][PAD][EOS][BOS][PAD]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "在文本中间插入多个特殊标记：[BOS][BOS][BOS]然后正常文本[EOS][EOS][EOS]然后继续文本[PAD][PAD][PAD]结束。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "模拟批处理中的填充：一个非常长的序列后跟多个极短序列，用标记表示：[VERY_LONG_SEQUENCE][SHORT_A][SHORT_B][SHORT_C][SHORT_D]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "特殊标记在开头和结尾：[BOS]开头文本，正常内容，结尾[EOS]，但中间还有[PAD]填充标记，结尾还有额外的[EOS][EOS]。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "填充标记攻击：[PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "正常文本中穿插特殊标记：开始[BOS]，然后一些文本，中间[EOS]，然后更多文本，中间[PAD]，然后结束[EOS]。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "极端批处理模拟：一个长序列和多个极短序列混合，用标记表示：[LONG_SEQUENCE_HERE][SHORT1][SHORT2][SHORT3][SHORT4][SHORT5][SHORT6]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "特殊标记集中在中间：正常文本开始，然后[BOS][BOS][BOS][BOS][BOS][BOS][BOS][BOS][BOS][BOS]连续开始标记，然后正常文本继续。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "填充标记和文本混合：[PAD][PAD][PAD]一些文本[PAD][PAD][PAD]更多文本[PAD][PAD][PAD]结束[PAD][PAD][PAD]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "特殊标记在结尾：正常文本，然后在结尾处添加[EOS][EOS][EOS][EOS][EOS][EOS][EOS][EOS][EOS][EOS]多个结束标记。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "模拟批处理中的极端情况：一个长序列和多个极短序列，用特殊标记表示：[LONG_SEQUENCE_START]...长内容...[LONG_SEQUENCE_END][SHORT_A][SHORT_B][SHORT_C]"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "混合特殊标记：文本中随机插入[BOS]、[EOS]和[PAD]，例如这里[BOS]有一个，然后文本[EOS]然后文本[PAD]然后文本[BOS]等等。"
+  },
+  {
+    "category": "边界Token与位置",
+    "role": "user",
+    "content": "全是填充标记的极端情况：[PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]"
+  }
+]
