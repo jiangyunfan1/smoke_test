@@ -5,3 +5,5 @@ https://zhuanlan.zhihu.com/p/1925860132509685417
 swr.cn-southwest-2.myhuaweicloud.com/base_image/ascend-ci/vllm-ascend:nightly-ci-main-a3
 
 mkdir -p /mnt/sfs_turbo && mount -t nfs -o vers=3,timeo=600,noresvport,nolock,tcp omni.sfsturbo.internal:/ /mnt/sfs_turbo
+
+https://aisbench.obs.cn-north-4.myhuaweicloud.com/images/benchmark/github/ais_bench_benchmark_image_v3.1-20260415-master_aarch64_py_310.tar.gz
