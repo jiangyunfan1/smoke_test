@@ -19,3 +19,5 @@ wget http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/gpqa.zip
 unzip gpqa.zip
 rm gpqa.zip
 
+curl -X POST -s http://x:8000/v1/chat/completions -H "Content-Type: application/json" -d '{"model": "dsv3","messages": [{"role": "user", "content": "San Francisco is a"}],"max_tokens": 100,"temperature": 0, "stream": false, "chat_template_kwargs": {"thinking": true}}';echo
+
