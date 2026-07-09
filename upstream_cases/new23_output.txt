@@ -1,0 +1,138 @@
+  - name: tests/kernels/mamba/test_mamba_ssm_configs.py
+    estimate_time: 20
+  - name: tests/v1/cudagraph/test_breakable_cudagraph.py
+    estimate_time: 20
+  - name: tests/v1/engine/test_logprobs_processor.py
+    estimate_time: 20
+  - name: tests/v1/engine/test_core_engine_actor_manager.py
+    estimate_time: 20
+  - name: tests/v1/kv_connector/unit/test_nixl_heartbeat.py
+    estimate_time: 20
+  - name: tests/v1/kv_connector/unit/test_mooncake_store_coordinator.py
+    estimate_time: 20
+  - name: tests/v1/kv_connector/unit/test_mooncake_store_scheduler.py
+    estimate_time: 20
+  - name: tests/v1/kv_connector/unit/test_mooncake_store_hma_e2e.py
+    estimate_time: 20
+  - name: tests/v1/kv_offload/test_tiering_offloading.py
+    estimate_time: 20
+  - name: tests/v1/kv_offload/test_file_mapper.py
+    estimate_time: 20
+  - name: tests/quantization/test_quantization_config_args.py
+    estimate_time: 20
+  - name: tests/quantization/test_auto_gptq.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/disagg/test_protocol.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/disagg/test_return_routed_experts.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/disagg/test_tokens_logprobs.py
+    estimate_time: 20
+  - name: tests/entrypoints/openai/test_return_routed_experts.py
+    estimate_time: 20
+  - name: tests/entrypoints/openai/test_dp_supervisor.py
+    estimate_time: 20
+  - name: tests/entrypoints/openai/test_reasoning_enable_thinking.py
+    estimate_time: 20
+  - name: tests/entrypoints/openai/responses/test_response_input_to_harmony.py
+    estimate_time: 20
+  - name: tests/entrypoints/openai/parser/test_harmony_render_parity.py
+    estimate_time: 20
+  - name: tests/entrypoints/speech_to_text/test_speech_to_text_cancellation.py
+    estimate_time: 20
+  - name: tests/entrypoints/speech_to_text/transcription/test_transcription_inter_chunk_spacing.py
+    estimate_time: 20
+  - name: tests/lora/test_moe_lora_ep_load.py
+    estimate_time: 20
+  - name: tests/model_executor/test_flashinfer_autotune_cache.py
+    estimate_time: 20
+  - name: tests/model_executor/model_loader/test_modelexpress_loader.py
+    estimate_time: 20
+  - name: tests/model_executor/layers/test_pooler_activations.py
+    estimate_time: 20
+  - name: tests/tool_parsers/test_utils.py
+    estimate_time: 20
+  - name: tests/tool_parsers/test_apertus_tool_parser.py
+    estimate_time: 20
+  - name: tests/models/multimodal/processing/test_step3_vl_image_embeds.py
+    estimate_time: 20
+  - name: tests/models/multimodal/processing/test_openvla.py
+    estimate_time: 20
+  - name: tests/v1/test_kv_cache_spec_registry.py
+    estimate_time: 20
+  - name: tests/v1/attention/test_mla_prefill_registry.py
+    estimate_time: 20
+  - name: tests/v1/spec_decode/test_llm_base_proposer_sampling.py
+    estimate_time: 20
+  - name: tests/v1/spec_decode/test_dflash_lookahead.py
+    estimate_time: 20
+  - name: tests/v1/worker/test_gpu_worker_weight_transfer.py
+    estimate_time: 20
+  - name: tests/v1/engine/test_dp_placement_node_allowlist.py
+    estimate_time: 20
+  - name: tests/v1/executor/test_vllm_net_devices.py
+    estimate_time: 20
+  - name: tests/v1/kv_connector/unit/test_nixl_simple_cpu_offload.py
+    estimate_time: 20
+  - name: tests/v1/kv_connector/unit/test_transfer_topology_sharded.py
+    estimate_time: 20
+  - name: tests/v1/kv_connector/unit/test_hma_auto_config.py
+    estimate_time: 20
+  - name: tests/v1/kv_connector/unit/test_handshake_pp_aggregation.py
+    estimate_time: 20
+  - name: tests/v1/kv_offload/tiering/test_tiering_offloading.py
+    estimate_time: 20
+  - name: tests/v1/kv_offload/tiering/test_obj_tier.py
+    estimate_time: 20
+  - name: tests/entrypoints/generate/generative_scoring/test_generative_scoring.py
+    estimate_time: 20
+  - name: tests/entrypoints/generate/generative_scoring/test_generative_scoring_e2e.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/utils/test_request_logger.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/utils/test_ssl_cert_refresher.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/utils/test_api_utils.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/utils/test_fingerprint.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/dev/rpc/test_collective_rpc.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/sagemaker/test_sagemaker_middleware_integration.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/sagemaker/test_sagemaker_stateful_sessions.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/sagemaker/test_sagemaker_lora_adapters.py
+    estimate_time: 20
+  - name: tests/entrypoints/serve/sagemaker/test_sagemaker_handler_overrides.py
+    estimate_time: 20
+  - name: tests/entrypoints/openai/chat_completion/test_thinking_token_budget_validation.py
+    estimate_time: 20
+  - name: tests/entrypoints/openai/test_responses_parser_unified.py
+    estimate_time: 20
+  - name: tests/entrypoints/openai/responses/test_streaming_events.py
+    estimate_time: 20
+  - name: tests/entrypoints/llm/offline_mode/test_offline_mode.py
+    estimate_time: 20
+  - name: tests/transformers_utils/processors/test_voxtral.py
+    estimate_time: 20
+  - name: tests/benchmarks/test_custom_image_dataset.py
+    estimate_time: 20
+  - name: tests/benchmarks/test_custom_dataset_chat_template_kwargs.py
+    estimate_time: 20
+  - name: tests/model_executor/test_nemotron_h_quantization.py
+    estimate_time: 20
+  - name: tests/model_executor/layers/test_pooler_heads.py
+    estimate_time: 20
+  - name: tests/model_executor/layers/test_pooler_methods.py
+    estimate_time: 20
+  - name: tests/model_executor/test_qwen3_5_quantization.py
+    estimate_time: 20
+  - name: tests/tool_parsers/test_minicpm5xml_tool_parser.py
+    estimate_time: 20
+  - name: tests/compile/test_inductor_fallback_allow_list_patch.py
+    estimate_time: 20
+  - name: tests/models/multimodal/processing/test_gemma4_unified.py
+    estimate_time: 20
+  - name: tests/parser/test_parse.py
+    estimate_time: 20
