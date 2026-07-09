@@ -10,5 +10,5 @@ input_file="$1"
 
 while IFS= read -r line; do
     printf -- '  - name: %s\n' "$line"
-    printf '    estimate_time: 20\n'
+    printf '    estimated_time: 20\n'
 done < "$input_file"
